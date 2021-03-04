@@ -1,0 +1,27 @@
+.clm-column {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.clm-row {
+  display: flex;
+  flex-direction: row;
+  padding-left: 40rpx;
+  margin-left: 40rpx;
+  padding-right: 40rpx;
+  margin-right: 40rpx;
+}
+.clm-view{
+  padding: 10rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  margin: 20rpx;
+}
+.clm-edit{
+  padding: 30rpx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+  color: wheat;
+  background-color: rgb(128, 128, 194);
+  height: 50px;
+}

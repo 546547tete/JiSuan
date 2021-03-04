@@ -1,0 +1,28 @@
+<view class="container clm-column">
+  <view class="clm-row">
+    <text class="clm-view" bindtap="code1">{{1}}</text>
+    <text class="clm-view" bindtap="code2">{{2}}</text>
+    <text class="clm-view" bindtap="code3">{{3}}</text>
+    <text class="clm-view" bindtap="code4">{{4}}</text>
+  </view>
+  <view class="clm-row">
+    <text class="clm-view" bindtap="code5">{{5}}</text>
+    <text class="clm-view" bindtap="code6">{{6}}</text>
+    <text class="clm-view" bindtap="code7">{{7}}</text>
+    <text class="clm-view" bindtap="code8">{{8}}</text>
+  </view>
+  <view class="clm-row">
+    <text class="clm-view" bindtap="code9">{{9}}</text>
+    <text class="clm-view" bindtap="code0">{{0}}</text>
+    <text class="clm-view" bindtap="code+">{{"+"}}</text>
+    <text class="clm-view" bindtap="code-">{{"-"}}</text>
+  </view>
+  <view class="clm-row">
+    <text class="clm-view" bindtap="code*">{{"*"}}</text>
+    <text class="clm-view" bindtap="code/">{{"/"}}</text>
+    <text class="clm-view" bindtap="code=">{{"="}}</text>
+    <text class="clm-view" bindtap="codeK">{{"清空"}}</text>
+  </view>
+  <editor class="clm-edit">
+  </editor>
+</view>
